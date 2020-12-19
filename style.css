@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/klaviatura_knopki_bukvy_106299_1920x1080.jpg);
+    background-size: auto;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Noto Serif JP', serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #00000013;
+    background-size: cover;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    margin-bottom: 1.5em;
+    background-color: #00000098;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #fffbfb;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullname {
+    margin-right: 20px;
+    flex-basis: 750px;
+    margin-left: 70px;
+    margin-top: 0;
+    
+}
+
+.myImg {
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 30px;
+    
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+    background-color: #00000098;
+    color: #fffbfb;
+}
+
+.article {
+    padding-top: 0; 
+    text-align: center; 
+    padding-left: 50px;
+    padding-right: 50px; 
+    background-color: #00000098;
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #000000;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.89);
+}
+
+h1 {
+    color: #851010e5;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #751111;
+    flex: 0 0 auto;
+    
+}
